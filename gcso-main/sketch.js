@@ -1,7 +1,7 @@
 
 var wall,thickness,damage;
-var bullet,speed,weight;
-var hasCollided;
+var speed,weight;
+
 
 
 function setup() {
@@ -16,7 +16,7 @@ bullet.velocityX=speed;
 
 bullet.shapeColor=color("white");
 
-wall=createSprite(1500,200,60,height/2)
+
 wall.shapeColor=color(80,80,80)
 wall=createSprite(1200,200,thickness,height/2)
 
